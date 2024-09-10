@@ -1,0 +1,17 @@
+.card-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(51, 51, 51);
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 300ms;
+}
+
+.card-container:hover{
+    transform: scale(1.05);
+    filter: brightness(1.1);
+}
